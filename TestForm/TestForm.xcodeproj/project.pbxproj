@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FB6890D24D70E5E005F7359 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB6890C24D70E5E005F7359 /* AppDelegate.swift */; };
+		5FB6891724D70E5E005F7359 /* TestForm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5FB6891524D70E5E005F7359 /* TestForm.xcdatamodeld */; };
+		5FB6891924D70E5F005F7359 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FB6891824D70E5F005F7359 /* Assets.xcassets */; };
+		5FB6891C24D70E5F005F7359 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB6891A24D70E5F005F7359 /* LaunchScreen.storyboard */; };
+		5FB6892524D70ECA005F7359 /* QuestionnaireVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB6892324D70ECA005F7359 /* QuestionnaireVC.swift */; };
+		5FB6892624D70ECA005F7359 /* QuestionnaireVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FB6892424D70ECA005F7359 /* QuestionnaireVC.xib */; };
+		5FB6892D24D7128E005F7359 /* RadioNoTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB6892B24D7128E005F7359 /* RadioNoTVC.swift */; };
+		5FB6892E24D7128E005F7359 /* RadioNoTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FB6892C24D7128E005F7359 /* RadioNoTVC.xib */; };
+		5FB6893124D712A3005F7359 /* RadioYesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB6892F24D712A3005F7359 /* RadioYesTVC.swift */; };
+		5FB6893224D712A3005F7359 /* RadioYesTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FB6893024D712A3005F7359 /* RadioYesTVC.xib */; };
+		5FB6893524D712AD005F7359 /* TextFieldTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB6893324D712AD005F7359 /* TextFieldTVC.swift */; };
+		5FB6893624D712AD005F7359 /* TextFieldTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FB6893424D712AD005F7359 /* TextFieldTVC.xib */; };
+		5FB6893A24D7AAFD005F7359 /* ButtonSaveTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB6893824D7AAFD005F7359 /* ButtonSaveTVC.swift */; };
+		5FB6893B24D7AAFD005F7359 /* ButtonSaveTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FB6893924D7AAFD005F7359 /* ButtonSaveTVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5FB6890924D70E5D005F7359 /* TestForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FB6890C24D70E5E005F7359 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FB6891624D70E5E005F7359 /* TestForm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestForm.xcdatamodel; sourceTree = "<group>"; };
+		5FB6891824D70E5F005F7359 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FB6891B24D70E5F005F7359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FB6891D24D70E5F005F7359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FB6892324D70ECA005F7359 /* QuestionnaireVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireVC.swift; sourceTree = "<group>"; };
+		5FB6892424D70ECA005F7359 /* QuestionnaireVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestionnaireVC.xib; sourceTree = "<group>"; };
+		5FB6892B24D7128E005F7359 /* RadioNoTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioNoTVC.swift; sourceTree = "<group>"; };
+		5FB6892C24D7128E005F7359 /* RadioNoTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RadioNoTVC.xib; sourceTree = "<group>"; };
+		5FB6892F24D712A3005F7359 /* RadioYesTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioYesTVC.swift; sourceTree = "<group>"; };
+		5FB6893024D712A3005F7359 /* RadioYesTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RadioYesTVC.xib; sourceTree = "<group>"; };
+		5FB6893324D712AD005F7359 /* TextFieldTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTVC.swift; sourceTree = "<group>"; };
+		5FB6893424D712AD005F7359 /* TextFieldTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldTVC.xib; sourceTree = "<group>"; };
+		5FB6893824D7AAFD005F7359 /* ButtonSaveTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSaveTVC.swift; sourceTree = "<group>"; };
+		5FB6893924D7AAFD005F7359 /* ButtonSaveTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonSaveTVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FB6890624D70E5D005F7359 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FB6890024D70E5D005F7359 = {
+			isa = PBXGroup;
+			children = (
+				5FB6890B24D70E5D005F7359 /* TestForm */,
+				5FB6890A24D70E5D005F7359 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FB6890A24D70E5D005F7359 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FB6890924D70E5D005F7359 /* TestForm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FB6890B24D70E5D005F7359 /* TestForm */ = {
+			isa = PBXGroup;
+			children = (
+				5FB6892724D71267005F7359 /* TableViewCells */,
+				5FB6890C24D70E5E005F7359 /* AppDelegate.swift */,
+				5FB6892324D70ECA005F7359 /* QuestionnaireVC.swift */,
+				5FB6892424D70ECA005F7359 /* QuestionnaireVC.xib */,
+				5FB6891824D70E5F005F7359 /* Assets.xcassets */,
+				5FB6891A24D70E5F005F7359 /* LaunchScreen.storyboard */,
+				5FB6891D24D70E5F005F7359 /* Info.plist */,
+				5FB6891524D70E5E005F7359 /* TestForm.xcdatamodeld */,
+			);
+			path = TestForm;
+			sourceTree = "<group>";
+		};
+		5FB6892724D71267005F7359 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				5FB6893724D7AAEF005F7359 /* ButtonSaveTVC */,
+				5FB6892824D71271005F7359 /* RadioNoTVC */,
+				5FB6892924D71271005F7359 /* RadioYesTVC */,
+				5FB6892A24D71271005F7359 /* TextFieldTVC */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		5FB6892824D71271005F7359 /* RadioNoTVC */ = {
+			isa = PBXGroup;
+			children = (
+				5FB6892B24D7128E005F7359 /* RadioNoTVC.swift */,
+				5FB6892C24D7128E005F7359 /* RadioNoTVC.xib */,
+			);
+			path = RadioNoTVC;
+			sourceTree = "<group>";
+		};
+		5FB6892924D71271005F7359 /* RadioYesTVC */ = {
+			isa = PBXGroup;
+			children = (
+				5FB6892F24D712A3005F7359 /* RadioYesTVC.swift */,
+				5FB6893024D712A3005F7359 /* RadioYesTVC.xib */,
+			);
+			path = RadioYesTVC;
+			sourceTree = "<group>";
+		};
+		5FB6892A24D71271005F7359 /* TextFieldTVC */ = {
+			isa = PBXGroup;
+			children = (
+				5FB6893324D712AD005F7359 /* TextFieldTVC.swift */,
+				5FB6893424D712AD005F7359 /* TextFieldTVC.xib */,
+			);
+			path = TextFieldTVC;
+			sourceTree = "<group>";
+		};
+		5FB6893724D7AAEF005F7359 /* ButtonSaveTVC */ = {
+			isa = PBXGroup;
+			children = (
+				5FB6893824D7AAFD005F7359 /* ButtonSaveTVC.swift */,
+				5FB6893924D7AAFD005F7359 /* ButtonSaveTVC.xib */,
+			);
+			path = ButtonSaveTVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FB6890824D70E5D005F7359 /* TestForm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FB6892024D70E5F005F7359 /* Build configuration list for PBXNativeTarget "TestForm" */;
+			buildPhases = (
+				5FB6890524D70E5D005F7359 /* Sources */,
+				5FB6890624D70E5D005F7359 /* Frameworks */,
+				5FB6890724D70E5D005F7359 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestForm;
+			productName = TestForm;
+			productReference = 5FB6890924D70E5D005F7359 /* TestForm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FB6890124D70E5D005F7359 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Shagun Verma";
+				TargetAttributes = {
+					5FB6890824D70E5D005F7359 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 5FB6890424D70E5D005F7359 /* Build configuration list for PBXProject "TestForm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FB6890024D70E5D005F7359;
+			productRefGroup = 5FB6890A24D70E5D005F7359 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FB6890824D70E5D005F7359 /* TestForm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FB6890724D70E5D005F7359 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB6892E24D7128E005F7359 /* RadioNoTVC.xib in Resources */,
+				5FB6893224D712A3005F7359 /* RadioYesTVC.xib in Resources */,
+				5FB6892624D70ECA005F7359 /* QuestionnaireVC.xib in Resources */,
+				5FB6891C24D70E5F005F7359 /* LaunchScreen.storyboard in Resources */,
+				5FB6891924D70E5F005F7359 /* Assets.xcassets in Resources */,
+				5FB6893624D712AD005F7359 /* TextFieldTVC.xib in Resources */,
+				5FB6893B24D7AAFD005F7359 /* ButtonSaveTVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FB6890524D70E5D005F7359 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB6892D24D7128E005F7359 /* RadioNoTVC.swift in Sources */,
+				5FB6893A24D7AAFD005F7359 /* ButtonSaveTVC.swift in Sources */,
+				5FB6892524D70ECA005F7359 /* QuestionnaireVC.swift in Sources */,
+				5FB6893124D712A3005F7359 /* RadioYesTVC.swift in Sources */,
+				5FB6893524D712AD005F7359 /* TextFieldTVC.swift in Sources */,
+				5FB6891724D70E5E005F7359 /* TestForm.xcdatamodeld in Sources */,
+				5FB6890D24D70E5E005F7359 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5FB6891A24D70E5F005F7359 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FB6891B24D70E5F005F7359 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FB6891E24D70E5F005F7359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FB6891F24D70E5F005F7359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FB6892124D70E5F005F7359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestForm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shagun.TestForm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FB6892224D70E5F005F7359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestForm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shagun.TestForm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FB6890424D70E5D005F7359 /* Build configuration list for PBXProject "TestForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FB6891E24D70E5F005F7359 /* Debug */,
+				5FB6891F24D70E5F005F7359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FB6892024D70E5F005F7359 /* Build configuration list for PBXNativeTarget "TestForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FB6892124D70E5F005F7359 /* Debug */,
+				5FB6892224D70E5F005F7359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5FB6891524D70E5E005F7359 /* TestForm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5FB6891624D70E5E005F7359 /* TestForm.xcdatamodel */,
+			);
+			currentVersion = 5FB6891624D70E5E005F7359 /* TestForm.xcdatamodel */;
+			path = TestForm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5FB6890124D70E5D005F7359 /* Project object */;
+}
